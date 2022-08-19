@@ -1,0 +1,18 @@
+
+config server
+	option debug '0'
+	option read_buffer_size '10485760'
+	option cache_size '1000'
+	option cache_ttl '600'
+	option root '/'
+	option no_trash '0'
+	option read_only '0'
+	option enable '1'
+	option host '192.168.1.1'
+	option port '7890'
+	option auth_user 'root'
+	option auth_password 'password'
+	option refresh_token '8c24429434ad441babee98d4c1a3c8b9'
+	option upload_buffer_size '16777216'
+	option skip_upload_same_size '0'
+
