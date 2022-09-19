@@ -1,0 +1,21 @@
+
+config samba
+	option workgroup 'WORKGROUP'
+	option charset 'UTF-8'
+	option name 'LEDE'
+	option macos '0'
+	option description 'LEDE_NAS'
+	option homes '1'
+
+config sambashare
+	option auto '1'
+	option path '/mnt/sdb1'
+	option read_only 'no'
+	option guest_ok 'yes'
+	option create_mask '0666'
+	option dir_mask '0777'
+	option device 'sdb1'
+	option browseable 'yes'
+	option name 'LEDE'
+	option guest_only 'yes'
+
